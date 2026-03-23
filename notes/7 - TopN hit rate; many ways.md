@@ -20,8 +20,8 @@ rating hit rate (rHR)
 - `one example`
 
 ### 3 main points
-1. hit rate helps us understand from what we recommended in topK which did the user actually interact with
-2. To do offline evaluation we cannot do normal test/train split since that is for individual ratings but rather topend lists. Instead the approach is called leave-one-out cross validation. Here we give top K that user interacted with and then we remove one from the result and measure if system can fill that item in. This usually results in very low hit rate because its hard to fill one item when catalog is large.
+1. hit rate helps us understand from what we recommended in topK which did the user actually rated positively 
+2. To do offline evaluation we cannot do normal test/train split since that is for individual ratings but rather topend lists. Instead the approach is called leave-one-out cross validation. Here we give top K that user rated and then we remove one from the result and measure if system can fill that item in. This usually results in very low hit rate because its hard to fill one item when catalog is large.
 3. There are many ways to measure hit rate
  3.1. average reciprocal hit rate - which punishes putting good titles lower in the list
  3.2. cummulative hit rate - which we dont count certain predicted ratings if they do not meet a predicted threshold. So we only measure hit rate from predictions that the system actually thought you would like
