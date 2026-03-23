@@ -14,7 +14,7 @@
 
 
 ### Plain english
-Recommender systems help users find things they are interested in. This usually is in the format of a Top-N where we show the N most relevant. This can be from shopping in amazon.com, to recommending music, to search results (we can add interests to search so we only show most relevant and not just what match), or recommending tv shows/movies. 
+Recommender systems help users find things they are interested in. This usually is in the format of a Top-N where we show the N most relevant, but there are other formats. This can be from shopping in amazon.com, to recommending music, to search results (we can add interests to search so we only show most relevant and not just what match), or recommending tv shows/movies. 
 
 ## Chunk 1 compressed
 Concept: Recommender systems show top-N items to customer based on their taste
